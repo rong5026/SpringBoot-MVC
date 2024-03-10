@@ -43,6 +43,7 @@ public class ResponseHeaderServlet extends HttpServlet {
 	private void cookie(HttpServletResponse response) {
 		//Set-Cookie: myCookie=good; Max-Age=600;
 		// response.setHeader("Set-Cookie", "myCookie=good; Max-Age=600");
+
 		Cookie cookie = new Cookie("myCookie", "good");
 		cookie.setMaxAge(600); //600초
 		response.addCookie(cookie);
@@ -50,10 +51,10 @@ public class ResponseHeaderServlet extends HttpServlet {
 	private void redirect(HttpServletResponse response) throws IOException {
 		//Status Code 302
 		//Location: /basic/hello-form.html
+
 		//response.setStatus(HttpServletResponse.SC_FOUND); //302
 		//response.setHeader("Location", "/basic/hello-form.html");
+
 		response.sendRedirect("/basic/hello-form.html");
 	}
-
-
 }
