@@ -25,7 +25,6 @@ public class FrontControllerServletV2 extends HttpServlet {
 		controllerMap.put("/front-controller/v2/members", new MemberListControllerV2());
 	}
 
-
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String requestURI = request.getRequestURI();
