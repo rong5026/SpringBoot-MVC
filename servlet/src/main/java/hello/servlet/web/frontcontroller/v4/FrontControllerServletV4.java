@@ -4,15 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import hello.servlet.web.frontcontroller.ModelView;
 import hello.servlet.web.frontcontroller.MyView;
-import hello.servlet.web.frontcontroller.v3.ControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberFormControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberListControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberSaveContorllerV3;
 import hello.servlet.web.frontcontroller.v4.controller.MemberFormControllerV4;
 import hello.servlet.web.frontcontroller.v4.controller.MemberListControllerV4;
-import hello.servlet.web.frontcontroller.v4.controller.MemberSaveContorllerV4;
+import hello.servlet.web.frontcontroller.v4.controller.MemberSaveControllerV4;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -26,7 +21,7 @@ public class FrontControllerServletV4 extends HttpServlet {
 
 	public FrontControllerServletV4() {
 		controllerMap.put("/front-controller/v4/members/new-form", new MemberFormControllerV4());
-		controllerMap.put("/front-controller/v4/members/save", new MemberSaveContorllerV4());
+		controllerMap.put("/front-controller/v4/members/save", new MemberSaveControllerV4());
 		controllerMap.put("/front-controller/v4/members", new MemberListControllerV4());
 	}
 
