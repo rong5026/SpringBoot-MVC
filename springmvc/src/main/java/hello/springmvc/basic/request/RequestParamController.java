@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.util.Map;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import hello.springmvc.basic.HelloData;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -100,5 +102,23 @@ public class RequestParamController {
 		return "ok";
 	}
 
+	@ResponseBody
+	@RequestMapping("/model-attribute-v1")
+	public String modelAttributeV1(@ModelAttribute HelloData helloData) {
+		log.info("username={}, age={}", helloData.getUsername(), helloData.getAge());
+		return "ok";
+	}
+
+	/**
+	 * @ModelAttribute 생략 가능
+	 * String, int 같은 단순 타입 = @RequestParam
+	 * argument resolver 로 지정해둔 타입 외 = @ModelAttribute
+	 */
+	@ResponseBody
+	@RequestMapping("/model-attribute-v2")
+	public String modelAttributeV2(HelloData helloData) {
+		log.info("username={}, age={}", helloData.getUsername(), helloData.getAge());
+		return "ok";
+	}
 
 }
