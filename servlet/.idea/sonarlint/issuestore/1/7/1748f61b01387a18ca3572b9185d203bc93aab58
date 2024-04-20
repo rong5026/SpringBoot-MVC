@@ -1,0 +1,9 @@
+
+T
+java:S1948"2Make "memberRepository" transient or serializable.(«ùüÿÿÿÿ8Åó³ã1
+T
+java:S6126"2Replace this String concatenation with Text block.(îîæãÿÿÿÿÿ8Èó³ã1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(«ùüÿÿÿÿ8Èó³ã1
+V
+java:S1068"4Remove this unused "memberRepository" private field.(«ùüÿÿÿÿ8Èó³ã1

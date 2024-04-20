@@ -1,0 +1,9 @@
+
+i
+java:S1192&"GDefine a constant instead of duplicating this literal "</li>
+" 3 times.(Ζ‚―€ÿÿÿÿÿ8σÿ…΄γ1
+T
+java:S1948"2Make "memberRepository" transient or serializable.(«ωόÿÿÿÿ8»…΄γ1
+L	java:S106"+Replace this use of System.out by a logger.(κϊύθύÿÿÿÿ8»…΄γ1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(«ωόÿÿÿÿ8»…΄γ1

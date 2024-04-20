@@ -1,0 +1,16 @@
+
+h
+java:S11924"FDefine a constant instead of duplicating this literal "	<td>" 3 times.(äè¨÷øÿÿÿÿ8³¹­´ã1
+h
+java:S11924"FDefine a constant instead of duplicating this literal "</td>" 3 times.(äè¨÷øÿÿÿÿ8³¹­´ã1
+T
+java:S1948"2Make "memberRepository" transient or serializable.(«ùüÿÿÿÿ8º¹­´ã1
+X	java:S125+"<This block of commented-out lines of code should be removed.(İÖ¿…8½¹­´ã1
+\
+java:S24794":Remove the non-escaped \u0009 character from this literal.(äè¨÷øÿÿÿÿ8½¹­´ã1
+W
+java:S24795":Remove the non-escaped \u0009 character from this literal.(É—¼Š8¾¹­´ã1
+W
+java:S24796":Remove the non-escaped \u0009 character from this literal.(¿š°8¾¹­´ã1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(«ùüÿÿÿÿ8¾¹­´ã1

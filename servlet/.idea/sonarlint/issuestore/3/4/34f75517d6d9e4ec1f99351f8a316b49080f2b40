@@ -1,0 +1,6 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(¶–À¢8ú¶Ó¾â1
+G	java:S106"+Replace this use of System.out by a logger.(„Ü¿Á8ú¶Ó¾â1
+L	java:S106"+Replace this use of System.out by a logger.(‹Ÿ¦àþÿÿÿÿ8û¶Ó¾â1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¹„Á¨8ºêÔ¾â1
